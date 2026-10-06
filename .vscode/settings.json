@@ -1,0 +1,9 @@
+{
+  "python.analysis.extraPaths": ["./backend"],
+  "python.defaultInterpreterPath": "python3",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/node_modules": true
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
