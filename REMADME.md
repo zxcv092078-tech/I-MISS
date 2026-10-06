@@ -38,7 +38,7 @@ pip install -r requirements.txt
 cp .env.example .env    # 然后编辑.env,填好你的API Key
 uvicorn server:app --host 0.0.0.0 --port 8000
 
-# 2. App(先改好上面说的BACKEND_URL)
+# 2. App
 cd app
 npm install
 npx expo start
